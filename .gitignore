@@ -1,0 +1,28 @@
+# Secrets / credentials
+auth.json
+*.env
+.env*
+*.key
+*.pem
+*.p12
+*.secret
+*token*
+*credential*
+
+# Runtime state
+sessions/
+claude-bridge-state/
+logs/
+tmp/
+cache/
+*.log
+*.pid
+
+# Backups / local clutter
+*.bak
+*.backup
+*.tmp
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
